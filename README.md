@@ -26,5 +26,14 @@ https://mirrors.sjtug.sjtu.edu.cn/immortalwrt/releases/23.05.4/packages/x86_64/l
 https://github.com/wukongdaily/RunFilesBuilder<br>
 https://github.com/wukongdaily/DockerTarBuilder
 
+## Immortalwrt 如何安装iStoreOS风格
+安装iStore商店<br>
+```bash
+wget -qO imm.sh https://raw.githubusercontent.com/s71557/AutoBuildImmortalWrt/refs/heads/master/imm.sh && chmod +x imm.sh && ./imm.sh
+```
+安装网络向导和首页<br>
+```bash
+is-opkg install luci-i18n-quickstart-zh-cn
+```
 # 🌟鸣谢
 ### https://github.com/immortalwrt
